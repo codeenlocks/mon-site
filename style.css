@@ -63,7 +63,7 @@ nav a:hover{
 
 footer{
     color:white ;
-    height:10px;
+    height:35px;
     text-align:center;
     position:fixed;
     bottom:0;
@@ -110,4 +110,29 @@ footer{
 #acceuil_realisations .derniere_realisations{
     margin:10px 0px;
     border-bottom:1px solid black;
+}
+
+#acceuil_droite ul{
+    text-align:left;
+    font-style:italic;
+}
+
+td,th{
+    border:1px solid black;
+}
+
+table{
+    border-collapse:collapse;
+}
+
+th:first-child{
+    width:375px
+}
+
+th:last-child,th:nth-child(2){
+    width:150px
+}
+
+.centre{
+    text-align:center;
 }
